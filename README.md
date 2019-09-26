@@ -42,7 +42,7 @@ xx(a) {} //推断不出来
 ```
 
 
------------------------------------------
+_____
 使用scala：
 1.  开发     jdk      sdk（编译器）
 2.  运行     jdk jre
@@ -50,14 +50,14 @@ xx(a) {} //推断不出来
 V： spark 2.3.x > scala 2.11  > jre/jdk 1.8.uxxx
 	https://www.oracle.com/technetwork/java/javase/archive-139210.html
 
---------------coder--------------------------
+--------------coder-------------
 
 主流：使用  集成工具  ：  IDE
 
 	1.  IDEA  +plugin  +编译器   》创建scala项目了！
 	2.  启动屏幕：configure-》；plugins  
 	
-=============================
+____
 #学习scala
 https://docs.scala-lang.org/zh-cn/tour/tour-of-scala.html
 
@@ -69,10 +69,15 @@ object和class啥区别：
 分号可有可无
 scala是包级别区分，类名可以和文件名不一致
 
-
-
 ```
 
+_____
+
+
+
+
+
+ 
 
 
 
