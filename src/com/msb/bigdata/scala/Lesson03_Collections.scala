@@ -5,7 +5,7 @@ import java.util
 import scala.collection.mutable
 import scala.collection.mutable.ListBuffer
 
-object Lesson_Collections {
+object Lesson03_Collections {
 
 
   def main(args: Array[String]): Unit = {
