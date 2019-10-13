@@ -15,12 +15,12 @@ object WordCountScala {
     val sc = new SparkContext(conf)
     //单词统计
     //DATASET
-    val fileRDD: RDD[String] = sc.textFile("data/testdata.txt",16)
+//    val fileRDD: RDD[String] = sc.textFile("data/testdata.txt",16)
     //hello world
 
 //    fileRDD.flatMap(  _.split(" ") ).map((_,1)).reduceByKey(  _+_   ).foreach(println)
 
-//    val fileRDD: RDD[String] = sc.textFile("data/testdata.txt")
+    val fileRDD: RDD[String] = sc.textFile("data/testdata.txt")
     //hello world
     val words: RDD[String] = fileRDD.flatMap((x:String)=>{x.split(" ")})
     //hello
